@@ -31,7 +31,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <ul>
-                            <li className="nav-item fs-2 mt-2"><i class="bi bi-person-badge-fill fs-1"></i></li>
+                            <li className="nav-item fs-2 mt-2"><i className="bi bi-person-badge-fill fs-1"></i></li>
                         </ul>
                     </div>
                 </div>
