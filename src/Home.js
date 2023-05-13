@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import emage from "../src/images/home."
 
 
 const Home = ()=>{
@@ -14,6 +15,9 @@ const Home = ()=>{
                         <div className='mt-3'>
                             <a href='google.com' className='btn-get-started'>Get Started</a>
                         </div>
+                    </div>
+                    <div className='col-lg-6 order-1 order-lg-2 header-img'>
+                        <img src={} className='img-fluid animated' alt='home-image'>
                     </div>
                 </div>
             </div>

@@ -29,6 +29,16 @@ code {
 .navbar a:hover{
   color:#3498db!important;
 }
+.btn-get-started{
+  padding: 12px;
+  background-color: aquamarine;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.btn-get-started:hover{
+  color: #fff;
+  background-color: #757575;
+}
 @media(max-width:991){
   .navbar-brand{
     font: size 1.5rem!important;
