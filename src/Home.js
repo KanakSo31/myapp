@@ -12,7 +12,7 @@ const Home = ()=>{
                         <h1>We are a Family of <strong>wisdom with great truths.</strong></h1>
                         <h2 className='my-3'>We believe Buddhists have lost the way of the Buddha and lack a real basis of impact.</h2>
                         <div className='mt-3'>
-                            <a href=''>Get Started</a>
+                            <a href='' className='btn-get-started'>Get Started</a>
                         </div>
                     </div>
                 </div>
