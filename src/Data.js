@@ -7,7 +7,7 @@ import forr from "./images/for.jpg"
 const Data = [
     {
         imgsrc:one,
-        title:"pRay Them get Them"
+        title:"Pray Them get Them"
     },
     {
         imgsrc:two,
