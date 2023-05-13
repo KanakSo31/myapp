@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import Gim from "./images/Church.gif"
 
 
-const Service = () => {
+const Card = () => {
   return (<>
     <div className='my-5'>
       <h1 className='text-center'>Our Services</h1>
@@ -33,4 +33,4 @@ const Service = () => {
 };
 
 
-export default Service;
+export default Card;
