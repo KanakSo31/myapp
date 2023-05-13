@@ -9,7 +9,7 @@ const Vision = ()=>{
   return(<>
      <Comon name=" We Aim To "
     imgsrc={emage} 
-    btname="learn More"/>
+    btname="Learn More"/>
   </>
   );
 };

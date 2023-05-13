@@ -9,7 +9,7 @@ const Home = ()=>{
   return(<>
     <Comon name=" We are a Family of "
     imgsrc={emage} 
-    btname="Contact Now"/>
+    btname="Know more"/>
   </>
   );
 };
