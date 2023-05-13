@@ -24,8 +24,8 @@ const Navbar = () => {
                                     About
                                 </NavLink>
                                 <ul className="dropdown-menu">
-                                    <li><NavLink className="dropdown-item" to="service">Mission</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to="service">Vision</NavLink></li>
+                                    <li><NavLink className="dropdown-item" to="Mission">Mission</NavLink></li>
+                                    <li><NavLink className="dropdown-item" to="Vision">Vision</NavLink></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
