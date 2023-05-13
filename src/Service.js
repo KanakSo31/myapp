@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Data from "./Data"
 import Card from './Card';
 
 
@@ -13,7 +14,15 @@ const Service = () => {
         <div className="col-10 mx-auto">
           <div className='row gy-4'>
 
-            <Card/>
+            {
+              Data.map((val, ind) =>{
+                return <Card 
+                key={ind}
+                imgsrc ={val.imgsrc}
+                title={val.title}
+                />
+              })
+            }
             
 
           </div>
