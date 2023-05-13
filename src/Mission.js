@@ -7,7 +7,7 @@ import Comon from './Comon';
 
 const Home = ()=>{
   return(<>
-    <Comon name="We are a Family of"
+    <Comon name=" We are a Family of "
     imgsrc={emage} 
     btname="Contact Now"/>
   </>
