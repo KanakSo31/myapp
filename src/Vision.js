@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import emage from "../src/images/Church.gif"
-import { NavLink } from 'react-router-dom';
+import emage from "../src/images/Church.gif";
 import Comon from './Comon';
 
 

@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import emage from "../src/images/Church.gif"
-import { NavLink } from 'react-router-dom';
-import Gim from "./images/Church.gif"
+import Card from './Card';
 
 
 const Service = () => {
@@ -14,16 +12,10 @@ const Service = () => {
       <div className="row">
         <div className="col-10 mx-auto">
           <div className='row gy-4'>
-            <div className='col-md-4 col-10 mx-auto'>
-              <div class="card">
-                <img src={Gim} class="card-img-top" alt="..."/>
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-              </div>
-            </div>
+
+            <Card/>
+            
+
           </div>
         </div>
       </div>

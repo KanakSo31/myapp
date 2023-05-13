@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
-import emage from "../src/images/Church.gif"
-import { NavLink } from 'react-router-dom';
 import Gim from "./images/Church.gif"
+import { NavLink } from 'react-router-dom';
 
 
 const Card = () => {
@@ -20,7 +19,7 @@ const Card = () => {
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <NavLink to="#" class="btn btn-primary">Go somewhere</NavLink>
                   </div>
               </div>
             </div>
