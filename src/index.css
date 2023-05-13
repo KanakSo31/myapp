@@ -29,16 +29,6 @@ code {
 .navbar a:hover{
   color:#3498db!important;
 }
-.btn-get-started{
-  padding: 12px;
-  background-color: aquamarine;
-  border-radius: 25px;
-  text-decoration: none;
-}
-.btn-get-started:hover{
-  color: #fff;
-  background-color: #757575;
-}
 @media(max-width:991){
   .navbar-brand{
     font: size 1.5rem!important;
@@ -64,6 +54,32 @@ code {
   color: #484848;
   font-size: 24px;
 }
+#header .btn-get-started:hover{
+  background: #3498db;
+  color:#fff
+}
 .logo{
   max-width: 250px;
+}
+.header-img{
+  text-align: right;
+}
+#header .animated{
+animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform:translateY(-10px)
+  }
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform:translateY(-10px)
+  }
 }

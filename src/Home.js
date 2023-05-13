@@ -19,7 +19,7 @@ const Home = ()=>{
                         </div>
                     </div>
                     <div className='col-lg-6 order-1 order-lg-2 header-img '>
-                        <img src={emage} className="img-fluid animated rounded-4" alt='home-im'/>
+                        <img src={emage} className="img-fluid animated" alt='home-im'/>
                     </div>
                     </div>
                 </div>
