@@ -5,6 +5,7 @@ import App from './App';
 // import About from './About';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import Service from './Service';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +13,6 @@ root.render(
   <BrowserRouter>
   <React.StrictMode>
     <App />
-    {/* <About/> */}
   </React.StrictMode>
   </BrowserRouter>
   </>
