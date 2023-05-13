@@ -7,7 +7,11 @@ import { NavLink } from 'react-router-dom';
 
 const Home = ()=>{
   return(<>
-    <Comon/>
+    <Comon 
+    name="Join With "
+    imgsrc={emage} 
+    visit="./home"
+    btname="Get Started"/>
   </>
   );
 };
